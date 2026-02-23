@@ -41,27 +41,3 @@ Sociogram is a full-stack social media application built using **Next.js**, **Ty
 | **Neon DB**    | Serverless PostgreSQL database                |
 | **Clerk**      | Authentication and user management            |
 
----
-
-## ⚙️ Installation
-
-### 1. **Clone the Repository**
-```bash
-git clone https://github.com/your-username/sociogram.git
-cd sociogram
-npm install
-# or
-yarn install
-
-Create a .env file in the root directory and add the following:
-DATABASE_URL=your_neon_db_connection_url
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-CLERK_SECRET_KEY=your_clerk_secret_key
-Replace placeholders with actual credentials from Neon and Clerk.
-
-npx prisma db push
-npm run dev
-# or
-yarn dev
-
-The app will be running at http://localhost:3000
